@@ -1,0 +1,272 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	background-color: #F5F4EF;
+	color: #333;
+	line-height: 1;
+	font-family: "微軟正黑體", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	height: 100%;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	text-decoration: none;
+}
+a:visited {
+	color: #51AEA7;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+section.fullScreen {
+	width: 100%;
+}
+.contentArea {
+	margin: 0 auto;
+	width: 80%;
+}
+
+#site-head {
+	padding-top: 40px;
+}
+#site-head h1.site-title {
+	float: left;
+}
+#site-head h1.site-title img,
+#site-head h1.site-title p {
+	display: inline-block;
+}
+#site-head h1.site-title p {
+	font-size: 40px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	margin-top: 25px;
+	vertical-align: top;
+}
+#site-navigation {
+	float: right;
+}
+#site-navigation ul li {
+	display: inline-block;
+	height: 80px;
+}
+#site-navigation ul li a {
+	border-right: 1px #51AEA7 solid;
+	color: #51AEA7;
+	font-size: 14px;
+	line-height: 80px;
+	padding: 0 15px;
+}
+#site-navigation ul li a:hover {
+	color: #51AEA7;
+}
+#site-navigation ul li a.active {
+	color: #808080;
+}
+#site-navigation ul li:last-child a {
+	border-right: none;
+}
+
+#home .contentArea {
+	display: table;
+	height: 720px;
+	position: relative;
+	overflow: hidden;
+}
+#home .herotext {
+	display: table-cell;
+	padding-left: 65px;
+	vertical-align: middle;
+}
+#home .herotext h2.entry-title {
+	font-size: 4.2em;
+	margin-bottom: 26px;
+	text-shadow: 1px 1px #CCC;
+}
+#home .herotext .entry-title .black {
+	color: #333;
+}
+#home .herotext .entry-title .green {
+	color: #51AEA7;
+}
+#home .herotext h3.entry-subheading {
+	font-size: 3.16em;
+	margin-bottom: 26px;
+}
+#home .herotext .entry-descriptions {
+	color: #666;
+	font-size: 2em;
+	line-height: 1.5em;
+}
+#home .imgContainer {
+	position: absolute;
+	right: 160px;
+	top: 55px;
+}
+#home .imgContainer img {
+	width: 400px;
+}
+
+#HTP {
+	background-color: #51AEA7;
+}
+#HTP .contentArea {
+	display: table;
+	height: 540px;
+	position: relative;
+	overflow: hidden;
+}
+#HTP .herotext {
+	display: table-cell;
+	vertical-align: middle;
+}
+#HTP .herotext h2.entry-title {
+	color: #F5F4EF;
+	font-size: 5em;
+	margin-bottom: 26px;
+	text-shadow: 1px 1px #CCC;
+	max-width: 65%;
+}
+#HTP .herotext #howToPlayList li {
+	color: #EFEFEF;
+	font-size: 1.6em;
+	line-height: 1.5em;
+	list-style: decimal;
+	list-style-position: outside;
+	margin-left: 30px;
+	max-width: 65%;
+}
+#HTP .imgContainer {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#WTP .contentArea {
+	display: table;
+	height: 800px;
+	position: relative;
+	overflow: hidden;
+}
+#WTP .herotext {
+	display: table-cell;
+	vertical-align: middle;
+}
+#WTP .herotext h2.entry-title {
+	color: #333333;
+	font-size: 5em;
+	margin-bottom: 26px;
+	text-shadow: 1px 1px #CCC;
+}
+h3.exp-title {
+	font-size: 24px;
+	margin-bottom: 32px;
+}
+h3.exp-title div {
+	margin-bottom: 10px;
+}
+h3.exp-title .exp-titleEN {
+	font-size: 0.78em;
+}
+.exp-date,
+.exp-location {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.exp-location .exp-locationAdd {
+	color: #51AEA7;
+	font-size: 0.78em;
+}
+#exp-list {
+	margin-top: 180px;
+}
+#exp-list li {
+	display: inline-block;
+	margin-right: 27px;
+}
+#exp-list li a {
+	background: #333;
+	color: #F5F4EF;
+	display: block;
+	font-size: 24px;
+	line-height: 1.66em;
+	/*height: 126px;*/
+	padding: 35px;
+	text-align: center;
+	/*width: 126px;*/
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+#exp-list li:last-child {
+	margin-right: 0;
+}
+#exp-list li.ui-state-active a {
+	background: #51AEA7;
+}
+#WTP .imgContainer {
+	display: table-cell;
+	vertical-align: middle;
+}
+#map {
+	height: 640px;
+	margin: 0 auto;
+	width: 640px;
+}
+#copyright {
+	background: #51AEA7;
+	color: #F5F4EF;
+	font-size: 14px;
+	line-height: 27px;
+	text-align: center;
+	padding: 10px 0;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
